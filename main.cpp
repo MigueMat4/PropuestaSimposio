@@ -1,7 +1,21 @@
 #include <iostream>
+
+using namespace std;
+
 int main()
 {
-  std::cout << "Propuesta de programa para el simposio de Ingenieria 2021\n";
-  std::cin.ignore();
-  return 0;
+
+	int x;
+	cout << "Cuanto estudiantes van a participar en el simposio?" << endl;
+	cin >> x;
+
+	if (x % 4 == 0) {
+		cout << "Se hara de manera virtual" << endl;
+	}
+	else
+	{
+		cout << "Se hará de manera presencial" << endl;
+	}
+
+	system("Pause")
 }
