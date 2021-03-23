@@ -7,7 +7,7 @@ int main()
   cout << "ingrese la cantidad de estudiantes de la carrera";
  cin >> estudiantes
  mayor = 0;
- If (estudiantes1 > mayor){
+ if (estudiantes1 > mayor){
 mayor = estudiantes1;
  else if (estudiantes2> mayor){
  mayor = estudiantes2;
